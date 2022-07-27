@@ -1,0 +1,37 @@
+footer {
+
+    background-color: #fed362!important;
+
+}
+
+#footer {
+
+    color: white;
+
+}
+
+#footer a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+#footer a:hover {
+
+    color: #212529;
+
+}
+
+#contact {
+
+    display: flex;
+
+}
+
+.contact-item {
+
+    margin: auto;
+
+}
+

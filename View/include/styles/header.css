@@ -1,0 +1,36 @@
+nav {
+
+    display: block;
+
+}
+
+@media (min-width: 1000px) {
+
+    #headerTitle {
+
+        margin-left: 200px!important;
+        margin-right: 50px!important;
+
+    }
+
+}
+
+#header {
+
+    color: white;
+
+}
+
+#header a {
+
+    color: white;
+    text-decoration: none;
+
+}
+
+#header a:hover {
+
+    color: #fed362;
+
+}
+
