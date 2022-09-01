@@ -1,0 +1,49 @@
+@media (min-width: 700px) {
+
+    .main {
+
+        display: flex;
+
+    }
+
+    #main-content {
+
+        width: 60%;
+
+    }
+
+    #photos {
+
+        width: 40%;
+
+    }
+
+}
+
+@media (min-width: 1400px) {
+
+    #charlaine {
+
+        display: flex;
+
+    }
+
+    #charlaine p {
+
+        max-height: 300px;
+
+    }
+
+}
+
+.main div {
+
+    padding: 1%;
+
+}
+
+#secteurs .col-xl-6 {
+
+    margin: auto;
+
+}

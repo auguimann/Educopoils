@@ -1,24 +1,23 @@
-function initMapMontberon() {
+function initMaps() {
 
-    const coord = {lat: 43.718892, lng: 1.482693};
-
-    const map = new google.maps.Map(document.getElementById("map"), {
+    const coordM = {lat: 43.718892, lng: 1.482693};
+    const mapM = new google.maps.Map(document.querySelector("#mapMontberon"), {
 
         zoom: 12,
-        center: coord,
+        center: coordM,
         mapTypeId: "terrain",
 
     });
 
-    new google.maps.Marker({
+    const markerM = new google.maps.Marker({
 
-        position: coord,
-        map,
+        position: coordM,
         title: "Montberon",
 
     });
+    markerM.setMap(mapM);
 
-    const montberonCoords = [
+    const mAreaCoords = [
 
         {lng: 1.463941, lat: 43.7712185},
         {lng: 1.4577611, lat: 43.774239},
@@ -117,10 +116,9 @@ function initMapMontberon() {
         {lng: 1.463941, lat: 43.7712185}
 
     ];
+    const mArea = new google.maps.Polygon({
 
-    const montberonArea = new google.maps.Polygon({
-
-        paths: montberonCoords,
+        paths: mAreaCoords,
         strokeColor: "#fed362",
         strokeOpacity: 1,
         strokeWeight: 4,
@@ -128,21 +126,144 @@ function initMapMontberon() {
         fillOpacity: 0.60,
 
     });
+    mArea.setMap(mapM);
 
-    montberonArea.setMap(map);
 
-}
+    const coordC = {lat: 43.781110, lng: 1.363416};
+    const mapC = new google.maps.Map(document.querySelector("#mapCastel"), {
 
-function initMapCastel() {
-
-    const map = new google.maps.Map(document.getElementById("map"), {
-
-        zoom: 5,
-        center: {lat: 24.886, lng: -70.268},
+        zoom: 12,
+        center: coordC,
         mapTypeId: "terrain",
 
     });
 
+    const markerC = new google.maps.Marker({
+
+        position: coordC,
+        title: "Castelnau-d'Estrétefonds",
+
+    });
+    markerC.setMap(mapC);
+
+    const cAreaCoords = [
+
+        {lng: 1.404056, lat: 43.7118037},
+        {lng: 1.4009661, lat: 43.7175111},
+        {lng: 1.3982195, lat: 43.7217293},
+        {lng: 1.3995928, lat: 43.7247067},
+        {lng: 1.4054293, lat: 43.7239624},
+        {lng: 1.4098925, lat: 43.7180074},
+        {lng: 1.412639, lat: 43.7224737},
+        {lng: 1.4195055, lat: 43.7222256},
+        {lng: 1.425342, lat: 43.7269396},
+        {lng: 1.4301485, lat: 43.7316533},
+        {lng: 1.4298052, lat: 43.737607},
+        {lng: 1.4370149, lat: 43.7405836},
+        {lng: 1.4449114, lat: 43.7440561},
+        {lng: 1.4473146, lat: 43.7495124},
+        {lng: 1.4486879, lat: 43.7514965},
+        {lng: 1.4589876, lat: 43.7510005},
+        {lng: 1.4631075, lat: 43.7557123},
+        {lng: 1.4603609, lat: 43.7626553},
+        {lng: 1.4538378, lat: 43.7638951},
+        {lng: 1.4469713, lat: 43.7661265},
+        {lng: 1.4507479, lat: 43.7715809},
+        {lng: 1.4517778, lat: 43.776539},
+        {lng: 1.4541811, lat: 43.7822403},
+        {lng: 1.4497179, lat: 43.7869496},
+        {lng: 1.4483446, lat: 43.7926499},
+        {lng: 1.4438814, lat: 43.7976063},
+        {lng: 1.4435381, lat: 43.8008277},
+        {lng: 1.4366716, lat: 43.8045445},
+        {lng: 1.4311785, lat: 43.8065266},
+        {lng: 1.4277452, lat: 43.8122251},
+        {lng: 1.4195055, lat: 43.814207},
+        {lng: 1.4109224, lat: 43.8154457},
+        {lng: 1.4116091, lat: 43.8206478},
+        {lng: 1.4160723, lat: 43.8231249},
+        {lng: 1.4188188, lat: 43.8241157},
+        {lng: 1.4239687, lat: 43.8265926},
+        {lng: 1.4298052, lat: 43.8285741},
+        {lng: 1.4280886, lat: 43.8320415},
+        {lng: 1.4208788, lat: 43.835261},
+        {lng: 1.4122957, lat: 43.8364992},
+        {lng: 1.4092058, lat: 43.8416996},
+        {lng: 1.4047426, lat: 43.8449186},
+        {lng: 1.4016527, lat: 43.8476422},
+        {lng: 1.3961595, lat: 43.8503658},
+        {lng: 1.3899797, lat: 43.8478898},
+        {lng: 1.3793367, lat: 43.8473946},
+        {lng: 1.3721269, lat: 43.8486326},
+        {lng: 1.3673204, lat: 43.8473946},
+        {lng: 1.3621706, lat: 43.8468994},
+        {lng: 1.3566774, lat: 43.8431853},
+        {lng: 1.3556475, lat: 43.8374898},
+        {lng: 1.349811, lat: 43.8357563},
+        {lng: 1.3432878, lat: 43.8283264},
+        {lng: 1.3432878, lat: 43.8236203},
+        {lng: 1.3360781, lat: 43.8199047},
+        {lng: 1.3271517, lat: 43.8216387},
+        {lng: 1.3216585, lat: 43.8248588},
+        {lng: 1.3171953, lat: 43.8265926},
+        {lng: 1.3141054, lat: 43.8322891},
+        {lng: 1.3092989, lat: 43.836004},
+        {lng: 1.3007158, lat: 43.8372422},
+        {lng: 1.2917894, lat: 43.8364992},
+        {lng: 1.2869829, lat: 43.8325368},
+        {lng: 1.2842363, lat: 43.8315461},
+        {lng: 1.2811464, lat: 43.827831},
+        {lng: 1.282863, lat: 43.8228772},
+        {lng: 1.2869829, lat: 43.8194093},
+        {lng: 1.2886995, lat: 43.8174275},
+        {lng: 1.2883562, lat: 43.8112341},
+        {lng: 1.294536, lat: 43.8057833},
+        {lng: 1.2959093, lat: 43.7998365},
+        {lng: 1.2904161, lat: 43.7961194},
+        {lng: 1.2904161, lat: 43.7894281},
+        {lng: 1.2797731, lat: 43.7914108},
+        {lng: 1.2766832, lat: 43.7896759},
+        {lng: 1.2701601, lat: 43.7862061},
+        {lng: 1.2660402, lat: 43.7800094},
+        {lng: 1.2660402, lat: 43.7735642},
+        {lng: 1.2684435, lat: 43.7688538},
+        {lng: 1.2729067, lat: 43.7646389},
+        {lng: 1.2780565, lat: 43.7611676},
+        {lng: 1.2790865, lat: 43.7572001},
+        {lng: 1.2941927, lat: 43.7569522},
+        {lng: 1.3020891, lat: 43.7619115},
+        {lng: 1.3165087, lat: 43.7512485},
+        {lng: 1.327495, lat: 43.7579441},
+        {lng: 1.3305849, lat: 43.7522404},
+        {lng: 1.3347048, lat: 43.7492644},
+        {lng: 1.3401979, lat: 43.743312},
+        {lng: 1.3398546, lat: 43.7410796},
+        {lng: 1.3395113, lat: 43.7363667},
+        {lng: 1.3412279, lat: 43.7311572},
+        {lng: 1.3443178, lat: 43.7271877},
+        {lng: 1.3460344, lat: 43.723218},
+        {lng: 1.3515276, lat: 43.7189999},
+        {lng: 1.3621706, lat: 43.7167667},
+        {lng: 1.370067, lat: 43.7219774},
+        {lng: 1.3738436, lat: 43.7170148},
+        {lng: 1.3748735, lat: 43.7127963},
+        {lng: 1.3868898, lat: 43.7123},
+        {lng: 1.393413, lat: 43.7137889},
+        {lng: 1.404056, lat: 43.7118037}
+
+    ];
+    const cArea = new google.maps.Polygon({
+
+        paths: cAreaCoords,
+        strokeColor: "#fed362",
+        strokeOpacity: 1,
+        strokeWeight: 4,
+        fillColor: "#fed362",
+        fillOpacity: 0.60,
+
+    });
+    cArea.setMap(mapC);
+
 }
 
-window.initMap = initMapMontberon;
+window.initMap = initMaps;

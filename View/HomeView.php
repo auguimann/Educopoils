@@ -6,7 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="/View/include/img/logo.png"/>
-    <title>Educ O'poils</title>
+    <link rel="stylesheet" href="/View/include/styles/home.css"/>
+    <title>Educ O'poils | Éducation et bien-être de votre chien</title>
 
 </head>
 
@@ -20,48 +21,94 @@ include("include/header.php");
 
 <div class="main">
 
-    <div class="row">
+    <div class="container-fluid text-center">
 
-        <div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
+        <div class="row">
 
-            <img
-                src="/View/include/img/IMG_9116.jpeg"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Boat on Calm Water"
-            />
-            <img
-                src="/View/include/img/IMG_9119.jpeg"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Wintry Mountain Landscape"
-            />
+            <div class="col-md-8">
 
-        </div>
-        <div class="col-lg-4 mb-4 mb-lg-0">
+                <h1>Bienvenue chez Educ O'poils 🐶</h1>
 
-            <img
-                src="/View/include/img/IMG_9149.jpeg"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Mountains in the Clouds"
-            />
-            <img
-                src="/View/include/img/IMG_9162.jpeg"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Boat on Calm Water"
-            />
+                <div class="container-fluid text-center">
 
-        </div>
-        <div class="col-lg-4 mb-4 mb-lg-0">
+                    <div class="row">
 
-            <img
-                src="/View/include/img/IMG_9188.jpeg"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Waves at Sea"
-            />
-            <img
-                src="/View/include/img/IMG_9192.jpeg"
-                class="w-100 shadow-1-strong rounded mb-4"
-                alt="Yosemite National Park"
-            />
+                        <div class="col-xl-6">
+
+                            <img src="/View/include/img/charlaine.jpg" width="350"
+                                 class="rounded img-fluid img-thumbnail" alt="charlaine"/>
+
+                        </div>
+                        <div class="col-xl-6 align-self-center">
+
+                            <p>
+                                Bonjour,
+                                je m’appelle Charlaine, j’ai 21 ans.
+                                J’ai décidé de me lancer dans l’éducation canine comme métier
+                                car c'est ma passion et j’ai toujours eu une affection
+                                considérable pour les chiens.
+                                C’est un métier qui me procure de l’épanouissement
+                                et de la joie lorsque je le pratique. Je propose plusieurs
+                                services allant de l'éducation à la pension de votre chien.
+                            </p>
+
+                        </div>
+
+                    </div>
+                    <div class="row" id="secteurs">
+
+                        <h3>Mes secteurs d'activité :</h3>
+
+                        <div class="col-xl-6">
+
+                            <img src="/View/include/img/secteur_castel.png"
+                                 width="350" class="rounded img-fluid img-thumbnail" alt="charlaine"/>
+
+                        </div>
+                        <div class="col-xl-6">
+
+                            <img src="/View/include/img/secteur_montberon.png"
+                                 width="350" class="rounded img-fluid img-thumbnail" alt="charlaine"/>
+
+                        </div>
+
+                        <a style="width: 230px; margin: auto" href="/secteurs/" role="button" class="btn btn-dark">Voir les secteurs en détail</a>
+
+                    </div>
+
+                </div>
+
+            </div>
+            <div class="col-md-4">
+
+                <h2>Quelques photos...</h2>
+                <div class="container-fluid text-center">
+
+                    <div class="row">
+
+                        <img
+                                src="/View/include/img/IMG_9116.jpeg"
+                                class="rounded img-fluid mb-4 img-thumbnail"
+                                alt="Rooky1"
+                        />
+                        <img
+                                src="/View/include/img/IMG_9119.jpeg"
+                                class="rounded img-fluid mb-4 img-thumbnail"
+                                alt="Rooky2"
+                        />
+                        <img
+                                src="/View/include/img/IMG_9149.jpeg"
+                                class="rounded img-fluid mb-4 img-thumbnail"
+                                alt="Rooky3"
+                        />
+
+                    </div>
+
+                </div>
+
+                <!--<a href="/galerie/" role="button" class="btn btn-dark">Voir plus de photos</a>-->
+
+            </div>
 
         </div>
 

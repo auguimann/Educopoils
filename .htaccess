@@ -1,0 +1,10 @@
+Options +FollowSymlinks
+RewriteEngine on
+
+# ----- Page 404 Custom -----
+
+ErrorDocument 404 /404.php
+
+# ----- Regex Générale -----
+
+RewriteRule ^([a-zA-Z\d\-]+)/?$ /?route=$1 [L,QSA]

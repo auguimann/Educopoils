@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="/View/include/img/logo.png"/>
     <script src="//widget.simplybook.it/v2/widget/widget.js"></script>
-    <title>Educ O'poils - Prise de rendez-vous</title>
+    <title>Prise de rendez-vous - Educ O'poils</title>
 
 </head>
 
@@ -20,6 +20,8 @@ include("include/header.php");
 ?>
 
 <div class="main">
+
+    <h1>Prendre rendez-vous</h1>
 
     <script>
 
@@ -58,6 +60,7 @@ include("include/header.php");
                 "predefined":[]
 
             }
+
         });
 
     </script>

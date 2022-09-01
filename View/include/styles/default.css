@@ -1,8 +1,20 @@
+body {
+
+    background-image: url("/View/include/img/background.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
 .main {
 
-    margin: 20px 50px;
+    background-color: rgba(255, 255, 255, 80%);
+    margin: 20px 20px;
+    padding: 10px;
     border-radius: 10px;
     text-align: center;
-    display: flex;
+    display: block;
 
 }

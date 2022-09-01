@@ -8,10 +8,34 @@ class Router {
 
             switch($_GET['route']) {
 
+                case 'education':
+
+                    $educCTRL = new EducController();
+                    $educCTRL->display();
+                    break;
+
+                case 'promenade':
+
+                    $walkCTRL = new WalkController();
+                    $walkCTRL->display();
+                    break;
+
+                case 'pension':
+
+                    $pensionCTRL = new PensionController();
+                    $pensionCTRL->display();
+                    break;
+
                 case 'secteurs':
 
                     $areaCTRL = new AreaController();
                     $areaCTRL->display();
+                    break;
+
+                case 'tarifs':
+
+                    $pricesCTRL = new PricesController();
+                    $pricesCTRL->display();
                     break;
 
                 case 'prise-rdv':

@@ -6,9 +6,10 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="/View/include/img/logo.png"/>
+    <link rel="stylesheet" href="/View/include/styles/area.css"/>
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjs3VWHlWeaJOXWI-tIJzDgF5pOiAg0fA&callback=initMap&v=weekly" defer></script>
     <script src="/View/include/scripts/maps.js"></script>
-    <title>Educ O'poils - Secteurs</title>
+    <title>Secteurs - Educ O'poils</title>
 
 </head>
 
@@ -22,7 +23,17 @@ include("include/header.php");
 
 <div class="main">
 
-    <div id="map" style="height: 400px; width: 100%"></div>
+    <h1>Secteurs</h1>
+
+    Je me déplace principalement sur deux secteurs, l'un aux alentours de Montberon et l'autre aux
+    alentours de Castelnau d'Estrétefonds, voir ci-dessous :
+
+    <div class="maps">
+
+        <div id="mapMontberon" style="height: 400px; width: 100%; margin: 5px"></div>
+        <div id="mapCastel" style="height: 400px; width: 100%; margin: 5px"></div>
+
+    </div>
 
 </div>
 
