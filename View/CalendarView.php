@@ -23,7 +23,18 @@ include("include/header.php");
 
     <h1>Prendre rendez-vous</h1>
 
-    <script>
+    <div class="container-fluid text-center">
+
+        <div class="row">
+
+            <h2>Pour toute demande de rendez-vous, n'hésitez pas à me contacter
+                en cliquant sur un des liens en bas de page !</h2>
+
+        </div>
+
+    </div>
+
+    <!--<script>
 
         var widget = new SimplybookWidget({
 
@@ -63,7 +74,7 @@ include("include/header.php");
 
         });
 
-    </script>
+    </script>-->
 
 </div>
 

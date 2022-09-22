@@ -42,14 +42,17 @@ include("include/header.php");
                         <div class="col-xl-6 align-self-center">
 
                             <p>
-                                Bonjour,
-                                je m’appelle Charlaine, j’ai 21 ans.
-                                J’ai décidé de me lancer dans l’éducation canine comme métier
-                                car c'est ma passion et j’ai toujours eu une affection
-                                considérable pour les chiens.
-                                C’est un métier qui me procure de l’épanouissement
-                                et de la joie lorsque je le pratique. Je propose plusieurs
-                                services allant de l'éducation à la pension de votre chien.
+                                Bonjour à tous ! Je me présente, Charlaine
+                                et je viens tous juste d'avoir 21 ans. Ayant
+                                toujours eu une affection considérable pour
+                                les chiens, j'ai décidé que cette passion
+                                deviendrait mon métier. L'épanouissement
+                                et la joie que me procure cette activité me
+                                motive chaque jour à progresser dans ce
+                                domaine. Plusieurs services sont mis en
+                                place, allant de l'éducation à la pension de
+                                vote canidé. En espérant pouvoir convenir
+                                à vos besoins !
                             </p>
 
                         </div>
