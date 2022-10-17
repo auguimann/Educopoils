@@ -45,8 +45,8 @@ include("include/header.php");
                 <br/>
 
                 <div style="margin-top: 40px">
-                    <a href="/tarifs/" role="button" class="btn btn-dark">
-                        Voir les tarifs pension</a>
+                    <a target="_blank" href="/View/include/files/Tarifs pension.pdf"
+                       role="button" class="btn btn-dark">Voir les tarifs pension</a>
                 </div>
 
             </div>

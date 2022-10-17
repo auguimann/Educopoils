@@ -65,13 +65,13 @@ include("include/header.php");
                         <div class="col-xl-6">
 
                             <img src="/View/include/img/secteur_castel.png"
-                                 width="350" class="rounded img-fluid img-thumbnail" alt="charlaine"/>
+                                 width="350" class="rounded img-fluid img-thumbnail" alt="secteur_castel"/>
 
                         </div>
                         <div class="col-xl-6">
 
                             <img src="/View/include/img/secteur_montberon.png"
-                                 width="350" class="rounded img-fluid img-thumbnail" alt="charlaine"/>
+                                 width="350" class="rounded img-fluid img-thumbnail" alt="secteur_montberon"/>
 
                         </div>
 

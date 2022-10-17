@@ -43,8 +43,8 @@ include("include/header.php");
                 puissent y avoir accès.
 
                 <div style="margin-top: 40px">
-                    <a href="/tarifs/" role="button" class="btn btn-dark">
-                        Voir les tarifs promenade</a>
+                    <a target="_blank" href="/View/include/files/Tarifs promenade.pdf"
+                       role="button" class="btn btn-dark">Voir les tarifs promenade</a>
                 </div>
 
             </div>

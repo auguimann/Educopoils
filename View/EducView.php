@@ -47,8 +47,8 @@ include("include/header.php");
                 caresses pour les chiens qui aiment ça...)
 
                 <div style="margin-top: 40px">
-                    <a href="/tarifs/" role="button" class="btn btn-dark">
-                        Voir les tarifs éducation</a>
+                    <a target="_blank" href="/View/include/files/Tarifs education.pdf"
+                       role="button" class="btn btn-dark">Voir les tarifs éducation</a>
                 </div>
 
             </div>

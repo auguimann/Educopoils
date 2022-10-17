@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/png" href="/View/include/img/logo.png"/>
     <link rel="stylesheet" href="/View/include/styles/area.css"/>
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDjs3VWHlWeaJOXWI-tIJzDgF5pOiAg0fA&callback=initMap&v=weekly" defer></script>
-    <script src="/View/include/scripts/maps.js"></script>
+    <!--<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css"/>
+    <script src="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>-->
     <title>Secteurs - Educ O'poils</title>
 
 </head>
@@ -25,15 +25,31 @@ include("include/header.php");
 
     <h1>Secteurs</h1>
 
-    Je me déplace principalement sur deux secteurs, l'un aux alentours de Montberon et l'autre aux
-    alentours de Castelnau d'Estrétefonds, voir ci-dessous :
+    <div class="container">
 
-    <div class="maps">
+        <div class="row" id="secteurs">
 
-        <div id="mapMontberon" style="height: 400px; width: 100%; margin: 5px"></div>
-        <div id="mapCastel" style="height: 400px; width: 100%; margin: 5px"></div>
+            <h3>Je me déplace principalement sur deux secteurs, l'un aux alentours de Montberon et l'autre aux
+                alentours de Castelnau d'Estrétefonds, voir ci-dessous :</h3>
+
+            <div class="col-xl-6">
+
+                <img src="/View/include/img/secteur_castel.png"
+                     class="rounded img-fluid img-thumbnail" alt="secteur_castel"/>
+
+            </div>
+            <div class="col-xl-6">
+
+                <img src="/View/include/img/secteur_montberon.png"
+                     class="rounded img-fluid img-thumbnail" alt="secteur_montberon"/>
+
+            </div>
+
+        </div>
 
     </div>
+
+    <!--<div id="mapMontberon"></div>-->
 
 </div>
 
@@ -46,4 +62,5 @@ include("include/footer.php");
 </body>
 
 </html>
+<script src="/View/include/scripts/maps.js"></script>
 
