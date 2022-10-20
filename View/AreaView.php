@@ -8,7 +8,8 @@
     <link rel="icon" type="image/png" href="/View/include/img/logo.png"/>
     <link rel="stylesheet" href="/View/include/styles/area.css"/>
     <!--<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css"/>
-    <script src="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.js"></script>-->
+    <script src="https://api.mapbox.com/mapbox-gl-js
+    /v2.10.0/mapbox-gl.js"></script>-->
     <title>Secteurs - Educ O'poils</title>
 
 </head>

@@ -43,6 +43,7 @@ include("include/header.php");
             <dt>10€ la nuit en semaine</dt>
             <dt>13€ la nuit en week-end</dt>
             <dt>60€ la semaine</dt>
+            <dt>Le montant total du tarif augmente de 10€ pour les gardes pendant les fêtes de fin d’année.</dt>
         </dl>
     </div>
 
