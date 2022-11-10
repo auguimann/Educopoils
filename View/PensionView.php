@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="/View/include/img/logo.png"/>
+    <link rel="icon" type="image/png" href="/View/include/img/logo_educopoils31.png"/>
     <title>Pension - Educ O'poils</title>
 
 </head>
@@ -28,8 +28,8 @@ include("include/header.php");
 
             <div class="col-md-6">
 
-                <img src="/View/include/img/dogs_playing.jpg" width="600"
-                     class="rounded img-fluid img-thumbnail" alt="charlaine"/>
+                <img src="/View/include/img/pension_educopoils31.jpeg" width="600"
+                     class="rounded img-fluid img-thumbnail" alt="pension educopoils31"/>
 
             </div>
             <div class="col-md-6 align-self-center">

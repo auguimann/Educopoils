@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="/View/include/img/logo.png"/>
+    <link rel="icon" type="image/png" href="/View/include/img/logo_educopoils31.png"/>
     <link rel="stylesheet" href="/View/include/styles/area.css"/>
     <!--<link rel="stylesheet" href="https://api.mapbox.com/mapbox-gl-js/v2.10.0/mapbox-gl.css"/>
     <script src="https://api.mapbox.com/mapbox-gl-js
@@ -36,13 +36,13 @@ include("include/header.php");
             <div class="col-xl-6">
 
                 <img src="/View/include/img/secteur_castel.png"
-                     class="rounded img-fluid img-thumbnail" alt="secteur_castel"/>
+                     class="rounded img-fluid img-thumbnail" alt="secteur castelnau-d'estrétefonds"/>
 
             </div>
             <div class="col-xl-6">
 
                 <img src="/View/include/img/secteur_montberon.png"
-                     class="rounded img-fluid img-thumbnail" alt="secteur_montberon"/>
+                     class="rounded img-fluid img-thumbnail" alt="secteur montberon"/>
 
             </div>
 

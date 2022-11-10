@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="/View/include/img/logo.png"/>
+    <link rel="icon" type="image/png" href="/View/include/img/logo_educopoils31.png"/>
     <script src="//widget.simplybook.it/v2/widget/widget.js"></script>
     <title>Prise de rendez-vous - Educ O'poils</title>
 

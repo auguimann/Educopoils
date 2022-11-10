@@ -4,7 +4,7 @@
     <div class="container-fluid">
 
         <a href="https://www.educopoils31.fr/">
-            <img id="logo" src="/View/include/img/logo.png"
+            <img id="logo" src="/View/include/img/logo_educopoils31.png"
                 class="img-fluid float-start" alt="logo" height="100" width="100">
         </a>
 

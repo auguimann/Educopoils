@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="/View/include/img/logo.png"/>
+    <link rel="icon" type="image/png" href="/View/include/img/logo_educopoils31.png"/>
     <title>Promenade - Educ O'poils</title>
 
 </head>
@@ -50,8 +50,8 @@ include("include/header.php");
             </div>
             <div class="col-md-6">
 
-                <img src="/View/include/img/IMG_9192.jpeg" width="800"
-                     class="rounded img-fluid img-thumbnail" alt="charlaine"/>
+                <img src="/View/include/img/rooky_educopoils31.jpeg" width="800"
+                     class="rounded img-fluid img-thumbnail" alt="rooky educopoils31"/>
 
             </div>
 

@@ -5,7 +5,7 @@
 
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="icon" type="image/png" href="/View/include/img/logo.png"/>
+    <link rel="icon" type="image/png" href="/View/include/img/logo_educopoils31.png"/>
     <link rel="stylesheet" href="/View/include/styles/home.css"/>
     <title>Educ O'poils | Éducation et bien-être de votre chien</title>
 
@@ -35,7 +35,7 @@ include("include/header.php");
 
                         <div class="col-xl-6">
 
-                            <img src="/View/include/img/charlaine.jpg" width="350"
+                            <img src="/View/include/img/charlaine_educopoils31.jpg" width="350"
                                  class="rounded img-fluid img-thumbnail" alt="charlaine"/>
 
                         </div>
