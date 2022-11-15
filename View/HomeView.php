@@ -35,7 +35,7 @@ include("include/header.php");
 
                         <div class="col-xl-6">
 
-                            <img src="/View/include/img/charlaine_educopoils31.jpg" width="350"
+                            <img src="/View/include/img/charlaine_educopoils31.jpeg" width="350"
                                  class="rounded img-fluid img-thumbnail" alt="charlaine"/>
 
                         </div>
@@ -43,7 +43,7 @@ include("include/header.php");
 
                             <p>
                                 Bonjour à tous ! Je me présente, Charlaine
-                                et je viens tous juste d'avoir 21 ans. Ayant
+                                et je viens tou juste d'avoir 21 ans. Ayant
                                 toujours eu une affection considérable pour
                                 les chiens, j'ai décidé que cette passion
                                 deviendrait mon métier. L'épanouissement

@@ -28,19 +28,10 @@ include("include/header.php");
 
             <div class="col-md-6 align-self-center">
 
-                Je propose :
-                <dl>
-                    <dt>- des promenades individuelles*</dt>
-                    <dt>- des balades collectives**</dt>
-                </dl>
-                <br/>
-                *Je balade votre chien une fois dans
-                la journée, pendant une durée déterminée
-                <br/>
-                **Les balades collectives sont gratuites pour les clients en cours d'éducation et
-                payantes pour les autres. Je procède en proposant un lieu, un jour et une heure de
-                rdv sur la page Facebook, mais j’essaierai aussi de varier pour que tous mes clients
-                puissent y avoir accès.
+                Je propose des promenades collectives par groupe de 5 chiens.
+                <br>
+                Les rendez-vous se font sur <b>Facebook</b> ou par <b>Instagram</b>,
+                alors n'hésitez pas à cliquer sur les liens en bas de page !
 
                 <div style="margin-top: 40px">
                     <a target="_blank" href="/View/include/files/Tarifs promenade.pdf"
