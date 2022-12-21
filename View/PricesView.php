@@ -32,11 +32,10 @@ include("include/header.php");
                     <b><u>- Education canine :</u></b>
                     <br>
                     <br>
-                    <dd>40€/h pour 1 à 4 cours, soit 160€ le forfait 4 cours</dd>
-                    <dd>35€/h pour 4 à 8 cours, soit 280€ le forfait 8 cours</dd>
-                    <dd>30€/h pour 8 à 12 cours, soit 360€ le forfait 12 cours</dd>
-                    <dd>25€/h au delà de 12 cours</dd>
-                    <dd>(6 cours - 220€, 10 cours - 330€)</dd>
+                    <dd>45€ la séance</dd>
+                    <dd>160€ le forfait 4 cours</dd>
+                    <dd>280€ le forfait 8 cours</dd>
+                    <dd>30€ la séance au delà de 8 cours</dd>
                 </dl>
 
             </div>
