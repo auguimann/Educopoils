@@ -43,7 +43,7 @@ include("include/header.php");
 
                             <p>
                                 Bonjour à tous ! Je me présente, Charlaine
-                                et je viens tou juste d'avoir 21 ans. Ayant
+                                et je viens tout juste d'avoir 21 ans. Ayant
                                 toujours eu une affection considérable pour
                                 les chiens, j'ai décidé que cette passion
                                 deviendrait mon métier. L'épanouissement
